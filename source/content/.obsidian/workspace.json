@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Тест/Какая-то информация.md",
+                "file": "Тест/Саары.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Какая-то информация"
+              "title": "Саары"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Тест/Какая-то информация.md",
+                "file": "Тест/Саары.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Какая-то информация"
+              "title": "Backlinks for Саары"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Тест/Какая-то информация.md",
+                "file": "Тест/Саары.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Какая-то информация"
+              "title": "Outgoing links from Саары"
             }
           },
           {
@@ -142,16 +142,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Тест/Какая-то информация.md",
+                "file": "Тест/Саары.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Какая-то информация"
+              "title": "Outline of Саары"
+            }
+          },
+          {
+            "id": "5d64633f4d6e5a0e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -169,11 +180,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
     "Тест/index.md",
     "index.md",
-    "Тест/Какая-то информация.md",
+    "Тест/Саары.md",
     "Тест"
   ]
 }
