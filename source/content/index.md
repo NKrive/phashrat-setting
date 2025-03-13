@@ -1,7 +1,5 @@
 ---
-title: My GitHub Pages Notebook!
+title: Введение
 ---
 
-Hello world!
-
-Write some words here!
+Какое-то описание фашрата...
