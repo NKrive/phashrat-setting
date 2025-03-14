@@ -118,9 +118,9 @@ svg {
   user-select: none;
 
   & div > a {
-    color: var(--secondary);
+    color: var(--dark);
     font-family: var(--headerFont);
-    font-size: 0.95rem;
+    font-size: 1rem;
     font-weight: $semiBoldWeight;
     line-height: 1.5rem;
     display: inline-block;
