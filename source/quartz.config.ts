@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "✨ Фашрат",
+    pageTitle: "Фашрат",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -42,11 +42,11 @@ const config: QuartzConfig = {
         darkMode: {
           light: "#262626",
           lightgray: "#363636",
-          gray: "#404040",
+          gray: "#505050",
           darkgray: "#d1d1d1",
           dark: "#b38f34",
           secondary: "#b1b1b1",
-          tertiary: "#e1e1e1",
+          tertiary: "#9C937C",
           highlight: "rgba(143, 159, 169, 0)",
           textHighlight: "#fff23688",
         },

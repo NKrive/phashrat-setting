@@ -19,14 +19,12 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
     // Component.ArticleTitle(),
-    Component.ContentMeta(),
     Component.TagList(),
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.DesktopOnly(Component.TableOfContents()),
     Component.DesktopOnly(Component.Explorer({
       sortFn: (a, b) => {
         return a.name.localeCompare(b.name)
@@ -34,9 +32,9 @@ export const defaultContentPageLayout: PageLayout = {
     })),
   ],
   right: [
-    // Component.Graph(),
-    Component.Darkmode(),
     Component.Backlinks(),
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.ContentMeta(),
   ],
 }
 
@@ -48,7 +46,11 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer({
+      sortFn: (a, b) => {
+        return a.name.localeCompare(b.name)
+      },
+    })),
   ],
   right: [],
 }
