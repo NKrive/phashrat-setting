@@ -37,6 +37,7 @@ button#explorer {
     font-size: 1rem;
     display: inline-block;
     margin: 0;
+    border: none;
   }
 
   & .fold {
@@ -92,7 +93,7 @@ button#explorer {
       transform 0.35s ease,
       opacity 0.2s ease;
     & li > a {
-      color: var(--dark);
+      color: var(--secondary);
       opacity: 0.75;
       pointer-events: all;
     }
@@ -144,7 +145,7 @@ svg {
     & span {
       font-size: 0.95rem;
       display: inline-block;
-      color: var(--secondary);
+      color: var(--dark);
       font-weight: $semiBoldWeight;
       margin: 0;
       line-height: 1.5rem;
